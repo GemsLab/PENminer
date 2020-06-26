@@ -3,7 +3,6 @@ from oPENminer import oPENminer
 from sPENminer_anomaly import sPENminerAnomaly
 from method_data_stream import MethodDataStream
 from stream import Stream
-import cProfile
 import argparse
 import sys
 
@@ -17,7 +16,6 @@ def parse_args():
             raise argparse.ArgumentTypeError('Boolean value expected.')
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--profile', '-p', type=str2bool, default=False, required=False, help="If True, then use cProfile.")
     parser.add_argument('--verbose', type=str2bool, default=True, required=False, help="If True, then print on the fly.")
     parser.add_argument('--stream', '-s', type=str, required=True, help="Stream name.")
     parser.add_argument('--window_size', '-ws', type=int, default=4, required=False, help="Window size; equivalent to max duration (\delta_max).")
@@ -85,7 +83,4 @@ def main(args):
 
 if __name__ == "__main__":
     args = parse_args()
-    if not args.profile:
-        main(args)
-    else:
-        cProfile.run('main(args)')
+    main(args)
