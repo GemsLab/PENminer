@@ -77,3 +77,7 @@ oPENminer:
 #### What if my dataset doesn't have deletions, weights, node labels, or edge labels? 
 
 You can still use PENminer, but setting the update type to `1` (insert) for all updates, setting the weight and node labels arbitrarily (just don't use the `view = label` view, and PENminer will ignore these). Make sure the edge type is consistent across all updates, but it doesn't matter what it is. 
+
+### Comments or Questions
+
+Contact [Caleb Belth](https://quickshift.xyz/) with comments or questions: `cbelth@umich.edu`
