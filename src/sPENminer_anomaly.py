@@ -18,6 +18,7 @@ class sPENminerAnomaly(sPENminer):
                  stream,
                  window_size,
                  max_size,
+                 view,
                  alpha=1,
                  beta=1,
                  gamma=1,
