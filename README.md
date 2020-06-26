@@ -2,7 +2,7 @@
 
 ***COMING SOON: Link to paper, citation, and more documentation!***
 
-Caleb Belth, Xinyi Zheng, and Danai Koutra. _Mining Persistent Activity in Continually Evolving Networks._. Knowledge Discovery and Data Mining (KDD), August 2020. [[Link to the paper]()]
+Caleb Belth, Xinyi Zheng, and Danai Koutra. _Mining Persistent Activity in Continually Evolving Networks_. Knowledge Discovery and Data Mining (KDD), August 2020. [[Link to the paper]()]
 
 If used, please cite:
 ```bibtex
@@ -71,3 +71,9 @@ oPENminer:
 `--gamma / -gamma (0, infinity) (Optional; Default = 1)` the exponent for `S(.)`.
 
 `--offline / -o (Optional; Default = False)` Whether to use sPENminer (if True) or oPENminer (if False).
+
+## Frequenty Asked Questions (FAQ)
+
+#### What if my dataset doesn't have deletions, weights, node labels, or edge labels? 
+
+You can still use PENminer, but setting the update type to `1` (insert) for all updates, setting the weight and node labels arbitrarily (just don't use the `view = label` view, and PENminer will ignore these). Make sure the edge type is consistent across all updates, but it doesn't matter what it is. 
