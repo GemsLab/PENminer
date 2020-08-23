@@ -1,11 +1,15 @@
 # PENminer
 
-***COMING SOON: Citation, and more documentation!***
-
 Caleb Belth, Xinyi Zheng, and Danai Koutra. _Mining Persistent Activity in Continually Evolving Networks_. Knowledge Discovery and Data Mining (KDD), August 2020. [[Link to the paper](https://quickshift.xyz/public/assets/documents/belth-2020-KDD-PENminer.pdf)]
 
 If used, please cite:
 ```bibtex
+@article{belth2020mining,
+  title={Mining Persistent Activity in Continually Evolving Networks},
+  author={Belth, Caleb and Zheng, Xinyi and Koutra, Danai},
+  booktitle={Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \&amp; Data Mining},
+  year={2020}
+}
 ```
 
 ## Setup
