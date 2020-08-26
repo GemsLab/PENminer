@@ -8,6 +8,7 @@ If used, please cite:
   title={Mining Persistent Activity in Continually Evolving Networks},
   author={Belth, Caleb and Zheng, Xinyi and Koutra, Danai},
   booktitle={Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery \&amp; Data Mining},
+  pages={934–944},
   year={2020}
 }
 ```
